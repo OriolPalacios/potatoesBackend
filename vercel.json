@@ -3,7 +3,6 @@
     "builds": [
       {
         "src": "main.py",
-        "PYTHON_VERSION": "3.8",
         "use": "@vercel/python"
       }
     ],
