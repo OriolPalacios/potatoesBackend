@@ -24,3 +24,7 @@ def predict(file: UploadFile = File(...)):
     # TODO: do something with the image
     prediction = "whatever"
     return {"prediction": prediction}
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app)
